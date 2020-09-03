@@ -1,9 +1,9 @@
-from config_learn import *
-from scm import Node, ResultMemory
-from scm import IGNORE_STEP, BUFFER, Cinv_ret, Cpel_ret, Ctrans, Cinv_wh, Cpel_wh
+from .config_learn import *
+from .scm import Node, ResultMemory
+from .scm import IGNORE_STEP, BUFFER, Cinv_ret, Cpel_ret, Ctrans, Cinv_wh, Cpel_wh
+from .brainnonbranch import IndependentBrain, Transition
+from .brainbranched import BranchedBrain
 from collections import namedtuple
-from brainnonbranch import IndependentBrain, Transition
-from brainbranched import BranchedBrain
 Transition_branched = namedtuple('Transition', ('episode', 'step' ,'state', 'action', 'next_state', 'reward', 'reward_p'))
 
 import logging

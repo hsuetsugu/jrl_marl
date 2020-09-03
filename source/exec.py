@@ -1,10 +1,11 @@
-from config import *
-from agent import *
+from .config import *
+from .agent import *
+from .config_learn import NUM_VALIDATION
+
 import argparse
 import subprocess as sp
 import requests
 import sys
-from config_learn import NUM_VALIDATION
 
 parser = argparse.ArgumentParser(description='SCM RL')
 

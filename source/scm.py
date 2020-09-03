@@ -1,8 +1,8 @@
+from .config_learn import USE_LT_INV
 import numpy as np
 import math
 import matplotlib.pyplot as plt
 import pandas as pd
-from config_learn import USE_LT_INV
 
 BUFFER = 10
 IGNORE_STEP = 20

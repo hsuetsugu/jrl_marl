@@ -1,5 +1,5 @@
 # ディープ・ニューラルネットワークの構築
-from config_learn import *
+from .config_learn import *
 
 import torch
 import torch.nn as nn
